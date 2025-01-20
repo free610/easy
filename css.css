@@ -1,0 +1,42 @@
+
+  .content-area {
+    width: 80vw;
+    height: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63,73,75,0.4); 
+    /* box-shadow: 3px 3px 38px rgba(0, 0, 0, 1), 0 0 30deg; */
+    /* border: 2px solid black; */
+    transition: width 1s;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0,0.5)
+}
+.content-area:hover{width: 100vw;}
+.bottom-text{
+    background: linear-gradient(to right,white,white) no-repeat left bottom;
+    background-size:0 2px ;
+transition:all 1s;}
+.bottom-text:hover{
+    background-size: 100% 2px;font-size:34px ;
+}
+/* nav a{background: linear-gradient(to right,white,white) no-repeat left bottom; */
+    /* background-size:0 2px ; */
+/* transition:all 1s;} */
+/* nav a:hover{background-size: 100% 2px;font-size:39px } */
+nav a{background-color: aliceblue;background-size:33vw 60px;background-color: transparent;
+transition:all 0.5s}
+nav a:hover{background-color: rgb(90, 90, 90);font-size:39px }
+h3{color: aliceblue;font-family:'Constantia' ;
+font-size:15px ;position: absolute;word-spacing: 5px;letter-spacing:2px ;
+bottom: 23px;left: 21vw;}
+h4{color: aliceblue;font-family:'白路彤彤手写体' ;
+    font-size:15px ;position: absolute;letter-spacing:10px ;
+    bottom: 0px;left: 39vw;}
+    /* hr{position: absolute;bottom: 50vw;} */
+h5{font-size: 1px;background-color: aliceblue;height: 2px;width: 100vw;
+position: absolute;bottom:55px ;}
