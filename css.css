@@ -40,3 +40,6 @@ h4{color: aliceblue;font-family:'白路彤彤手写体' ;
     /* hr{position: absolute;bottom: 50vw;} */
 h5{font-size: 1px;background-color: aliceblue;height: 2px;width: 100vw;
 position: absolute;bottom:55px ;}
+body{
+    background-size: cover;
+}
